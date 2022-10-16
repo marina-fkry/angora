@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/all.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/staly.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+
+
+    
+</head>
+<body>
+    <!--<div>
+    <h1>Home page</h1>
+
+    <button onclick="logout()">Logout</button>-->
+    
+        <nav class="navbar cardcolor w-100">
+            <div class="container-fluid w-75">
+              <a class="navbar-brand text-white">SMART LOGIN</a>
+              <form class="d-flex" role="search">
+                <button class="btn btn-outline-success p-" onclick="logout()" type="submit">Logout</button>
+              </form>
+            </div>
+          </nav>
+
+        
+
+          <div class="card m-auto w-50 mt-5 txetp">
+            <div class="card-body mt-4">
+              <h1 class="card-text text-center" id="welcome">Welcome marina</h1>
+            </div> 
+          </div>
+          <script src="js/bootstrap.bundle.js"></script>
+          <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+<script>
+
+    function logout(){
+
+        // localStorage.clear();
+        window.location = 'index.html';
+
+    }
+
+</script>
